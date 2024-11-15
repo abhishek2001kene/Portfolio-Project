@@ -1,6 +1,5 @@
 import React from "react";
 import TextChange from "./TextChanger";
-import me from "../../assets/me.png";
 import { NavLink } from "react-router-dom";
 function Home() {
   return (

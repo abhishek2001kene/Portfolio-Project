@@ -52,7 +52,7 @@ button:hover {
 }
 
 #img{
-    background-image: url("../../vite-project/src/assets/me.png");
+    background-image: url("../../vite-project/src/assets/img/me.png");
     background-size: cover; /* Cover the element completely */
     background-position: top; 
     border-bottom-right-radius: 300px ;
