@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Audiowide&family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Audiowide&family=Doto:wght@100..900&family=Prosto+One&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+#bg{
+    background-image: radial-gradient(farthest-side at 100px 100px,  #260e42, black,rgb(0, 7, 37));
+    font-family:"Commissioner", sans-serif;
+    ;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* In your CSS file */
+.hide-scrollbar {
+  overflow: auto;
+  scrollbar-width: none; /* for Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+
+#menu{
+    color: white;
+    
+    
+}
+
+button:hover {
+    background-color: #ff9900;
+    transform: scale(1.05);
+  }
+  
+
+#name{
+    text-shadow: 5px 2px 5px rgb(0, 0, 0);
+}
+#head{
+    background-image:linear-gradient(to right, #260e42, black);
+    /* border-bottom: 1px solid white; */
+    box-shadow:1px 1px 5px white
+}
+
+#img{
+    background-image: url("../../vite-project/src/assets/me.png");
+    background-size: cover; /* Cover the element completely */
+    background-position: top; 
+    border-bottom-right-radius: 300px ;
+    border-bottom-left-radius: 300px ;
+    box-shadow:10px 4px 30px white ;
+}
+
+#aboutbg{
+    background-image: radial-gradient(farthest-side at 1px 1px, rgb(69, 2, 69),  #efefef00 , rgba(15, 19, 54, 0.623));
+  
+}
+
+#s{
+    width: px;
+}
+
+#contactbg{
+    background-image: radial-gradient(farthest-side at 1px 1px, rgb(69, 2, 69),  #0a0828 , black);
+ 
+}
+
