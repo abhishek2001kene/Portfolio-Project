@@ -32,7 +32,7 @@ function Projects() {
 
 
       <div className="mt-40 w-[90%] h-full pb-5 flex flex-row justify-end">
-      <ul className="h-full w-full md:overflow-x-scroll flex flex-row-reverse gap-10 pb-2 hide-scrollbar">
+      <ul className="h-full w-full md:overflow-x-scroll flex  gap-10 pb-2 hide-scrollbar">
 
 
         {pros.map((pro) => (
