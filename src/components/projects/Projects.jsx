@@ -74,7 +74,7 @@ function Projects() {
                 {" "}
                 Source Code
               </button>
-              <Link to={`/features/${pro.id}`}>
+              <Link to={`/discrip/${pro.id}`}>
   <button className="bg-[#ffa812] p-2 font-semibold rounded-xl">
     Features
   </button>

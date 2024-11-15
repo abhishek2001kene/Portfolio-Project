@@ -5,7 +5,7 @@ import { addPro } from '../../feature/projectsSlice'
 function Projectform() {
 
 const [Title, setTitle] = useState('')
-const [Features, setFeatures] = useState('')
+const [Discrip, setDiscrip] = useState('')
 const [proUrl, setproUrl] = useState('')
 const [imgUrl, setimgUrl] = useState('')
 const [srcUrl, setsrcUrl] = useState('')
@@ -17,7 +17,7 @@ const AddProHandeller = (e) =>{
             dispatch(addPro(
                                 {
                                     Title:Title, 
-                                    Features:Features,
+                                    Discrip:Discrip,
                                     imgUrl:imgUrl,
                                     proUrl:proUrl,
                                     srcUrl:srcUrl
@@ -49,9 +49,9 @@ const AddProHandeller = (e) =>{
             />
 
            <textarea
-            value={Features}
+            value={Discrip}
             placeholder='Mention features'
-            onChange={(e)=> setFeatures(e.target.value)}
+            onChange={(e)=> setDiscrip(e.target.value)}
            />
            <input
             value={imgUrl}
@@ -76,3 +76,4 @@ const AddProHandeller = (e) =>{
 }
 
 export default Projectform
+

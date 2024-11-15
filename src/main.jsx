@@ -12,7 +12,7 @@ import { Provider } from 'react-redux'
 import {store} from "./store/store.js"
 import Body from './components/main body/Body.jsx'
 import Footer from './components/Footer/Footer.jsx'
-import Features from './components/features.jsx'
+import Discrip from './components/Discrip.jsx'
 
 
 
@@ -42,8 +42,8 @@ const router = createBrowserRouter([
         element:<Footer/>
       },
       {
-        path:"/features/:id",  // New route for Features component
-        element:<Features/>,
+        path:"/discrip/:id",  
+        element:<Discrip/>,
       }
     ]
   }

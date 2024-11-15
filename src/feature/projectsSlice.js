@@ -6,7 +6,7 @@ const initialState = {
     {
       id: 1,
       Title: "ABCD",
-      Features: "Default features text here...",
+      Discrip: "Default features text here...",
       imgUrl:"",
       proUrl:"",
       srcUrl:"",
@@ -24,7 +24,7 @@ export const ProjectSlice = createSlice({
       const Newpro = {
         id: nanoid(),
         Title: action.payload.Title,
-        Features: action.payload.Features,
+        Discrip: action.payload.Discrip,
         imgUrl:action.payload.imgUrl,
         proUrl:action.payload.proUrl,
         srcUrl:action.payload.srcUrl

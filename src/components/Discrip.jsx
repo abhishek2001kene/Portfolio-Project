@@ -3,19 +3,19 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import link from "../../src/assets/link.png";
 
-function Features() {
+function Discrip() {
   const { id } = useParams();
 
   const pro = useSelector((state) =>
     state.projects.projects.find((pro) => pro.id == id)
   );
 
-  const formattedFeatures = pro.Features.split("\n").map((line, index) => (
-    <span key={index}>
-      {line}
-      <br />
-    </span>
-  ));
+  // const formattedFeatures = pro.Discrip.split("\n").map((line, index) => (
+  //   <span key={index}>
+  //     {line}
+  //     <br />
+  //   </span>
+  // ));
 
   if (!pro) {
     return <div>Loading...</div>;
@@ -54,7 +54,7 @@ function Features() {
             </div>
 
             <div className=" w-[100%]  h-[90%] md:w-[60%] text-slate-300 overflow-y-scroll hide-scrollbar">
-            <p className="shrink-0">{formattedFeatures}</p>
+            <p className="shrink-0">{pro.Discrip}</p>
             </div>
 
             <div className=" w-[100%] md:hidden h-[20%] flex justify-between items-center">
@@ -79,6 +79,6 @@ function Features() {
     );
     }
 
-export default Features;
+export default Discrip;
 
 
