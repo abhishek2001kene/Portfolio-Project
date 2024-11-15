@@ -1,5 +1,8 @@
 import React from "react";
 import TextChange from "./TextChanger";
+// import me from '../../assets/me.svg'
+
+
 import { NavLink } from "react-router-dom";
 function Home() {
   return (
@@ -33,8 +36,8 @@ function Home() {
 
         <div
           id="img"
-          className="md:w-[40%] w-full absolute md:right-40 opacity-20  mt-14  md:opacity-40 h-[80%] md:h-[92%] "
-        >
+          className="md:w-[40%] w-full absolute md:right-40 opacity-20  mt-14  md:opacity-40 h-[80%] md:h-[92%] ">
+        
    
         </div>
       

@@ -52,7 +52,7 @@ button:hover {
 }
 
 #img{
-    background-image: url("../../vite-project/src/assets/img/me.png");
+    background-image: url("https://scontent.fpnq7-6.fna.fbcdn.net/v/t39.30808-6/467295286_1760837681406633_1953425589490883685_n.jpg?stp=dst-jpg_p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=d85DMvaCHz4Q7kNvgFmQza-&_nc_zt=23&_nc_ht=scontent.fpnq7-6.fna&_nc_gid=AjOad4vAApf6pKGbCMVwZl9&oh=00_AYCB64jgm-jxIqwByIXeyexF8s0TYBNG_wYCX4TRLfl-Ag&oe=673D5767");
     background-size: cover; /* Cover the element completely */
     background-position: top; 
     border-bottom-right-radius: 300px ;
