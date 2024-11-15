@@ -56,13 +56,13 @@ function Header() {
                         Contact
                     </NavLink>
                 </li>
-                {/* <li>
+                <li>
                     <NavLink 
                         to='/addProject' font-bold  
                         className={({ isActive }) => `transition-all  ${isActive ? '' : ''} text-sm font-semibold bg-[#ffa812] p-2 rounded-md text-slate-800`}>
                         Add Project
                     </NavLink>
-                </li> */}
+                </li>
             </ul>
         </div>
     </div> 
