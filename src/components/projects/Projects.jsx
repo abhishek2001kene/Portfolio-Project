@@ -80,12 +80,12 @@ function Projects() {
   </button>
 </Link>
 
-              {/* <button
+              <button
                 onClick={() => dispatch(deletePro({ id: pro.id }))}
                 className="bg-black text-white p-2 mt-2 rounded"
               >
                 ❌
-              </button> */}
+              </button>
             </div>
           </li>
         ))}
