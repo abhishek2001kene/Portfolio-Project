@@ -26,7 +26,7 @@ const AddProHandeller = (e) =>{
                             )
                     )
 
-                setFeatures('')
+                setDiscrip('')
                 setTitle('')
                 setimgUrl('')
                 setproUrl('')
