@@ -24,7 +24,7 @@ function Footer() {
             </h2>
           </div>
 
-          <div onClick={() => window.open("https://github.com//", "_blank")} className="flex gap-5 items-center cursor-pointer">
+          <div onClick={() => window.open("https://github.com/abhishek2001kene?tab=repositories", "_blank")} className="flex gap-5 items-center cursor-pointer">
             <img className="w-[10%]" src={github} alt="GitHub Icon" />
             <h2 className="md:text-xl text-sm font-semibold text-slate-300">
               github/abhishekkene
