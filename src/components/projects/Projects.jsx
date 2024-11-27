@@ -16,7 +16,7 @@ function Projects() {
   const defaultProjects = [
     {
       id: 1,
-      name: "Rock-paper-scissor",
+      name: "Tic Tac Toe",
       link: "https://abhishek2001kene.github.io/Tic-tac-toe-game/",
       sourceCodeLink: "https://github.com/abhishek2001kene/Tic-tac-toe-game",
       img:"https://media.licdn.com/dms/image/v2/D4D2DAQGBUyPweORp0Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1731572126511?e=1732345200&v=beta&t=LhNw38lW_OTttG8osi2m2xY-2rlYaiW5ebhQB_nYqSc"
@@ -24,7 +24,7 @@ function Projects() {
     },
     {
       id: 2,
-      name: "Tic Tac Toe",
+      name: "Rock-paper-scissor",
       link: "https://abhishek2001kene.github.io/Rock-paper-scissor-game/",
       sourceCodeLink: "https://github.com/abhishek2001kene/Rock-paper-scissor-game",
       img:"https://media.licdn.com/dms/image/v2/D4D2DAQEAP_r4M7_hew/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1731597497364?e=1732348800&v=beta&t=dPy_OZK2KTxb3Y_hLsRYH2AAaj3UwzqvJ0e9GEZoJAI"
